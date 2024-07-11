@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Bin2Dec</title>
+</head>
+<body>
+  <h1 class="title">Binary to Decimal number convert</h1>
+  <p class="description">Binary is the number system all digital computers are based on.</p>
+  <div class="form-wrapper">
+    <form class="form">
+      <input 
+        type="text" 
+        name="binary" 
+        id="bin" 
+        class="form_input"
+        placeholder="binary number"
+        maxlength="8"
+        autofocus>
+      <input type="submit" value="convert" class="button">
+      <input 
+        type="number" 
+        name="decimal" 
+        id="dec" 
+        class="form_input"
+        placeholder="decimal number"
+        readonly>
+    </form>
+</div>
+</body>
+<script src="./scripts.js"></script>
+</html>
